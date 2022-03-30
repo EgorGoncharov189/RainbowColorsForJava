@@ -36,7 +36,7 @@ public class Main {
     }
 }
 ```
-In methods ```beginTextColorng()``` and ```beginBackgroundColoring()``` You can pass also a ```Color``` class instance (pkg: java.awt.Color) or an int array with rgb values: note that if array size isn't equal to 3 then ```IllegalArgumentException``` will be thrown. Also, if you don't want to create your color, you can use method ```putANSI()``` and pass a static constant of class ```RainbowColor``` as color (a lot of colors are available!)<br>
+In methods ```beginTextColoring()``` and ```beginBackgroundColoring()``` You can pass also a ```Color``` class instance (pkg: java.awt.Color) or an int array with rgb values: note that if array size isn't equal to 3 then ```IllegalArgumentException``` will be thrown. Also, if you don't want to create your color, you can use method ```putANSI()``` and pass a static constant of class ```RainbowColor``` as color (a lot of colors are available!)<br>
 In this library You can add also emphasis:
 ```java
 public class Main {
