@@ -70,7 +70,7 @@ After all operations, never forget to use method ```reset()```: after using it a
         }
     }
 ```
-If You want to do some manipulations with string, You can access to variable ```'instance'.accumulatedString``` and modify it:
+If You want to do some manipulations with string, You can access to non-static variable ```accumulatedString``` and modify it:
 ```java
 public class Main {
     public static void main (String[] args) {
